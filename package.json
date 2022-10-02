@@ -1,0 +1,22 @@
+{
+  "name": "week-7-repo",
+  "version": "1.0.0",
+  "description": "\"# week-7-repo\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mestra185/week-7-repo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mestra185/week-7-repo/issues"
+  },
+  "homepage": "https://github.com/mestra185/week-7-repo#readme",
+  "dependencies": {
+    "jquery": "^3.6.1"
+  }
+}

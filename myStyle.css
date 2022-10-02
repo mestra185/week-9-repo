@@ -1,0 +1,107 @@
+body { 
+    background-image: url("https://img.freepik.com/premium-photo/mexico-flag-brush-stroke-national-flag-white-background_559531-8658.jpg?w=2000");
+}
+
+
+
+#text-2 {
+
+    color: red;
+    font-weight: bold;
+    font-size: 55px;
+    text-align: center;
+}
+
+.allText{
+    color: black ;
+    font-weight: bold;
+}
+
+#center{
+
+    text-align:center
+}
+
+.left{
+
+   float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: green;
+  }
+  
+  li {
+    float: left;
+  }
+
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  
+  li a:hover:not(.active) {
+    background-color: #111;
+  }
+  
+  .active {
+    background-color: darkgreen;
+  }
+
+
+.styleList{
+    float: right
+}
+
+* {
+    box-sizing: border-box;
+  }
+  
+  #item {
+    float: left;
+    width: 25%;
+    padding: 5px;
+
+  }
+
+.index-gallery::after{
+
+    content: "";
+    clear: both;
+    display: table;   
+}
+
+
+.footer {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: red;
+    text-align: center;
+  }
+
+  #color {
+    background-color: green;
+    color: black;
+    
+
+  }
+
+  #color:hover {
+
+    color: white;
+
+  }
+
+
+
